@@ -242,7 +242,7 @@ describe("Medium", function() {
     });
     
     it("Brackets test 18", function() {
-        const expr = " 85 * 97 / (  89 / 11 - 18 * 96  ) - 61 ";
+        const expr = "85  * 97 / (  89 / 11 - 18 * 96  ) - 61 ";
         const result = -65.7939;
         expect(Number(expressionCalculator(expr).toFixed(4))).to.equal(result);
     });
